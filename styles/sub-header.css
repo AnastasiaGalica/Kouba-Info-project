@@ -1,0 +1,26 @@
+.sub-header1{
+    background-color:#17252A;
+    padding: 4vh 4rem;
+    padding-top: 10vh !important;
+}
+.sub-header2{
+    background-color: #00ABE4;
+    padding: 1rem 2rem;
+    text-align: right;
+}
+.sub-header2 a,  .sub-header2 span{
+    color: white;
+}
+.sub-header2 a:hover{
+    color:rgb(236, 166, 14);
+}
+
+.sub-header1 h1::after{
+    content: '';
+    height: 2px;
+    width: 8%;
+    background-color: rgb(236, 166, 14);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

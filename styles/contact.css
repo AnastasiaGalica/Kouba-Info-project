@@ -1,0 +1,83 @@
+.contact-form{
+    background: rgb(12,161,211);
+background: linear-gradient(14deg, rgba(12,161,211,1) 0%, rgba(211,226,243,1) 81%);
+    height: 70vh;
+    width: 100%;
+    padding: 8vh;
+}
+.contact-form .contact-content{
+    width: 50%;
+    height: 54vh;
+    background-color: rgb(238, 238, 238);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    text-align: right;
+    padding: 1rem;
+    color:rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-form .contact-content div div{
+    margin: 3rem auto;
+    width: fit-content;
+    height: fit-content;
+    direction: rtl;
+    text-align: center;
+}
+.contact-form .contact-content div div>*{
+    display: block;
+}
+.contact-form .contact-content input{
+    width: 30vw;
+    height: 2rem;
+    border: none;
+    border-bottom: 1.2px solid rgb(77, 77, 77);
+    padding: 0 1vw;
+    background-color: transparent;
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+}
+.contact-form .contact-content input:focus{
+    outline: none;
+}
+.contact-form .contact-content button{
+    width: 25vw;
+    height: 2.5rem;
+    margin: auto;
+    border-radius: 40px;
+    border: none;
+    background-color:rgb(12,161,211);
+    color: white;
+    font-weight: 600;
+    font-size: 16pt;
+    cursor: pointer
+}
+.contact-form .contact-content button:hover{
+    width: 30vw;
+    background-color: rgb(38, 172, 216) ;
+}
+
+
+.contact-content div b{ 
+    color: rgb(38, 172, 216);
+    font-size: 16pt;
+}
+.contact-content div p{
+    font-size: 16pt;
+    font-family:'Times New Roman', Times, serif;
+}
+.contact-content div a{
+    color: rgb(38, 172, 216);
+    display: block;
+    font-size: 16pt;
+    border-bottom: 1px solid rgb(38, 172, 216);
+}
+.contact-content i{
+    color: rgb(236, 166, 14);
+    font-size: 22pt;
+}
+
+.contact-form img{
+    display: inline-block;
+}
